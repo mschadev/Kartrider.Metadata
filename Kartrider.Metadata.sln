@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kartrider.Metadata", "Kartrider.Metadata\Kartrider.Metadata.csproj", "{56C67515-D730-4AC9-BD55-767FF90D772A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kartrider.Metadata.AspNetCore", "Kartrider.Metadata.AspNetCore\Kartrider.Metadata.AspNetCore.csproj", "{32449EC6-BA9A-471B-BC5E-077E5BE4B7B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{81CF3ECB-920C-4D63-828A-C41678F20833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kartrider.Metadata.Example.CustomType", "Examples\Kartrider.Metadata.Example.CustomType\Kartrider.Metadata.Example.CustomType.csproj", "{F3515395-14E8-4FCD-A86D-8A6CEF433D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kartrider.Metadata.Example.Event", "Examples\Kartrider.Metadata.Example.Event\Kartrider.Metadata.Example.Event.csproj", "{406364EB-105A-46A9-B10B-61EE57C3A936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kartrider.Metadata.Example.Basic", "Examples\Kartrider.Metadata.Example.Basic\Kartrider.Metadata.Example.Basic.csproj", "{B2B54652-45F3-41FE-827A-CE49EA517212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kartrider.Metadata.Example.AutoUpdate", "Examples\Kartrider.Metadata.Example.AutoUpdate\Kartrider.Metadata.Example.AutoUpdate.csproj", "{31D7ACF3-710C-4727-B797-15FF0C3E8656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C67515-D730-4AC9-BD55-767FF90D772A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C67515-D730-4AC9-BD55-767FF90D772A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C67515-D730-4AC9-BD55-767FF90D772A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C67515-D730-4AC9-BD55-767FF90D772A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32449EC6-BA9A-471B-BC5E-077E5BE4B7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32449EC6-BA9A-471B-BC5E-077E5BE4B7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32449EC6-BA9A-471B-BC5E-077E5BE4B7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32449EC6-BA9A-471B-BC5E-077E5BE4B7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3515395-14E8-4FCD-A86D-8A6CEF433D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3515395-14E8-4FCD-A86D-8A6CEF433D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3515395-14E8-4FCD-A86D-8A6CEF433D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3515395-14E8-4FCD-A86D-8A6CEF433D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406364EB-105A-46A9-B10B-61EE57C3A936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406364EB-105A-46A9-B10B-61EE57C3A936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406364EB-105A-46A9-B10B-61EE57C3A936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406364EB-105A-46A9-B10B-61EE57C3A936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B54652-45F3-41FE-827A-CE49EA517212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B54652-45F3-41FE-827A-CE49EA517212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B54652-45F3-41FE-827A-CE49EA517212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B54652-45F3-41FE-827A-CE49EA517212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D7ACF3-710C-4727-B797-15FF0C3E8656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D7ACF3-710C-4727-B797-15FF0C3E8656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D7ACF3-710C-4727-B797-15FF0C3E8656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D7ACF3-710C-4727-B797-15FF0C3E8656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3515395-14E8-4FCD-A86D-8A6CEF433D33} = {81CF3ECB-920C-4D63-828A-C41678F20833}
+		{406364EB-105A-46A9-B10B-61EE57C3A936} = {81CF3ECB-920C-4D63-828A-C41678F20833}
+		{B2B54652-45F3-41FE-827A-CE49EA517212} = {81CF3ECB-920C-4D63-828A-C41678F20833}
+		{31D7ACF3-710C-4727-B797-15FF0C3E8656} = {81CF3ECB-920C-4D63-828A-C41678F20833}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAD26EBC-03FA-4BD6-A457-0403DB305F83}
+	EndGlobalSection
+EndGlobal
