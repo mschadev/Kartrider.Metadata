@@ -9,7 +9,7 @@
     <RepositoryUrl>https://github.com/zxc010613/Kartrider.Metadata</RepositoryUrl>
     <PackageTags>asp.net core, kartrider, nexon</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
