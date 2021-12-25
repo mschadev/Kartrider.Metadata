@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
+using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading;
@@ -94,12 +95,12 @@ namespace Kartrider.Metadata
         private async void Job()
         {
             await UpdateMetadataFiles().ConfigureAwait(false);
-            MetadataUpdate(Path.Combine(_options.Path, CHARACTER_JSON_FILENAME), MetadataType.Character);
-            MetadataUpdate(Path.Combine(_options.Path, FLYINGPET_JSON_FILENAME), MetadataType.FlyingPet);
-            MetadataUpdate(Path.Combine(_options.Path, GAMETYPE_JSON_FILENAME), MetadataType.GameType);
-            MetadataUpdate(Path.Combine(_options.Path, KART_JSON_FILENAME), MetadataType.Kart);
-            MetadataUpdate(Path.Combine(_options.Path, PET_JSON_FILENAME), MetadataType.Pet);
-            MetadataUpdate(Path.Combine(_options.Path, TRACK_JSON_FILENAME), MetadataType.Track);
+            MetadataUpdate(Path.Combine(_options.Path, "metadata", CHARACTER_JSON_FILENAME), MetadataType.Character);
+            MetadataUpdate(Path.Combine(_options.Path, "metadata", FLYINGPET_JSON_FILENAME), MetadataType.FlyingPet);
+            MetadataUpdate(Path.Combine(_options.Path, "metadata", GAMETYPE_JSON_FILENAME), MetadataType.GameType);
+            MetadataUpdate(Path.Combine(_options.Path, "metadata", KART_JSON_FILENAME), MetadataType.Kart);
+            MetadataUpdate(Path.Combine(_options.Path, "metadata", PET_JSON_FILENAME), MetadataType.Pet);
+            MetadataUpdate(Path.Combine(_options.Path, "metadata", TRACK_JSON_FILENAME), MetadataType.Track);
             OnUpdated?.Invoke(this, JobManager.GetSchedule(SCHEDULE_NAME).NextRun);
         }
         private Action<Schedule> Schedule(KartriderMetadataOptions options)
